@@ -1,19 +1,22 @@
-{
-  "Port": 9117,
-  "AllowExternal": true,
-  "APIKey": "s9tcqkddvjpkmis824pp6ucgpwcd2xnc",
-  "AdminPassword": null,
-  "InstanceId": "4ylb3rfzbzc0bqils4zswsvbyq9o4armfsxjzlo0w1z853svngr2m82cd8cij9u2",
-  "BlackholeDir": "",
-  "UpdateDisabled": false,
-  "UpdatePrerelease": true,
-  "BasePathOverride": "",
-  "OmdbApiKey": "",
-  "OmdbApiUrl": "",
-  "ProxyUrl": "",
-  "ProxyType": 0,
-  "ProxyPort": null,
-  "ProxyUsername": "",
-  "ProxyPassword": "",
-  "ProxyIsAnonymous": true
-}
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"    package="reqable-ca.crt"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="reqable-ca.crt.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+</manifest>
